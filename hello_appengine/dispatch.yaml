@@ -1,0 +1,4 @@
+dispatch:
+  # https://cloud.google.com/appengine/docs/python/modules/routing
+  - url: "*/random/*"
+    module: rando
